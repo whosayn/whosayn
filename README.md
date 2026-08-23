@@ -12,8 +12,6 @@
   <img alt="interests" src="https://img.shields.io/badge/scientific%20computing-developer%20platforms-f59e0b">
 </p>
 
-<h3 align="center">I make expensive software workflows boring.</h3>
-
 <p align="center">
   I work on infrastructure-heavy problems where <b>performance, portability, and developer experience</b> all matter:
   build graphs, caches, schedulers, parsers, native/Python boundaries, and scientific software.
@@ -130,19 +128,6 @@ slow build
   <img src="https://img.shields.io/badge/storage%20systems-bd561d?style=for-the-badge" alt="storage systems">
   <img src="https://img.shields.io/badge/developer%20platforms-d1242f?style=for-the-badge" alt="developer platforms">
 </p>
-
----
-
-## A few principles
-
-<table>
-  <tr>
-    <td valign="top" width="25%"><b>Build platforms, not patches</b><br><sub>solve the recurring problem once</sub></td>
-    <td valign="top" width="25%"><b>Measure first</b><br><sub>profile before optimizing</sub></td>
-    <td valign="top" width="25%"><b>Reduce hidden work</b><br><sub>cache, simplify, and make bottlenecks visible</sub></td>
-    <td valign="top" width="25%"><b>Make it boring</b><br><sub>good infrastructure fades into the background</sub></td>
-  </tr>
-</table>
 
 ---
 
