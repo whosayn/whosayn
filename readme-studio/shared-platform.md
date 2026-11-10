@@ -6,22 +6,28 @@ I build developer infrastructure, shared storage, and performance-critical syste
 
 [Portfolio](https://husseinfaara.com/) · [GitHub](https://github.com/whosayn) · [Email](mailto:faarahussein@gmail.com)
 
-> **Architecture note**
-> Ten internal databases shared a recurring problem. Applications needed a consistent storage API across multiple engines. I designed the abstraction and consolidated the databases into one shared foundation.
+## A shared API for ten databases
 
-## Selected engineering work
+Applications needed a common way to work with multiple storage engines. I designed a C++ storage abstraction and consolidated ten internal databases into one foundation.
 
-### Reproducible builds across platforms
+```text
+Applications
+     ↓
+Shared storage API
+     ↓
+Storage engines
+```
 
-Built packaging and distribution workflows for Linux, macOS, and Windows on x86-64 and ARM, using Pixi and rattler-build.
+[See the architecture and other projects](https://husseinfaara.com/)
 
-### A shared API for ten databases
+## Selected impact
 
-Designed a C++ storage abstraction across multiple engines and consolidated ten internal databases into one foundation shared by applications.
+- **78%** less clean build time
+- **300+** engineers enabled
+- **10 → 1** databases consolidated
+- **20%** lower logging latency
 
-### A shorter logging critical path
-
-Profiled a shared logging path across C++ and Python and removed network bottlenecks. Latency improved by 20%.
+[Read the engineering portfolio](https://husseinfaara.com/)
 
 ## Core competencies
 

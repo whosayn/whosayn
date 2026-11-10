@@ -6,21 +6,15 @@ I build developer infrastructure, shared storage, and performance-critical syste
 
 [Portfolio](https://husseinfaara.com/) · [GitHub](https://github.com/whosayn) · [Email](mailto:faarahussein@gmail.com)
 
-## Open source
+## A logging performance case
 
-- **[RDKit](https://github.com/rdkit/rdkit/issues/8742).** Proposed extracting selected atoms as a new molecular graph.
-- **[RDKit](https://github.com/rdkit/rdkit/issues/8612).** Proposed reporting the precise position of invalid SMARTS tokens.
-- **[rdkit_smiles](https://github.com/whosayn/rdkit_smiles).** Explores lexing, parsing, and molecular graph construction.
-- **[sourceguard](https://github.com/whosayn/sourceguard).** Checks new changes for prohibited source patterns.
+**Observe.** Profile a shared logging path across C++ and Python.
 
-## Selected impact
+**Isolate.** Identify the network boundary as a bottleneck in the critical path.
 
-- **78%** less clean build time
-- **300+** engineers enabled
-- **10 → 1** databases consolidated
-- **20%** lower logging latency
+**Change.** Remove the bottleneck. Logging latency fell **20%**.
 
-[Read the engineering portfolio](https://husseinfaara.com/)
+[Read the portfolio for project context](https://husseinfaara.com/)
 
 ## Core competencies
 
@@ -28,5 +22,12 @@ I build developer infrastructure, shared storage, and performance-critical syste
 - **C++ systems & performance.** Profiling, native/Python interfaces, parsers, memory, and throughput.
 - **Storage & distributed compute.** Shared APIs, serialization, scheduling, and HPC workflows.
 - **Technical leadership.** Architecture ownership, engineering standards, and developer enablement.
+
+## Open source
+
+- **[RDKit](https://github.com/rdkit/rdkit/issues/8742).** Proposed extracting selected atoms as a new molecular graph.
+- **[RDKit](https://github.com/rdkit/rdkit/issues/8612).** Proposed reporting the precise position of invalid SMARTS tokens.
+- **[rdkit_smiles](https://github.com/whosayn/rdkit_smiles).** Explores lexing, parsing, and molecular graph construction.
+- **[sourceguard](https://github.com/whosayn/sourceguard).** Checks new changes for prohibited source patterns.
 
 [Discuss a senior engineering role](mailto:faarahussein@gmail.com)
